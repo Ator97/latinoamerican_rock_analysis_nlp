@@ -23,16 +23,3 @@ for i in all_artist:
         for j in i:
             all_artist_clean.append(re.findall("[0-9A-Za-z ÁÉÍÓÚáéíóú\(\ñÑ)\'¡!]*" ,j)[3])
             print(re.findall("[0-9A-Za-z ÁÉÍÓÚáéíóú\(\ñÑ)\'¡!]*" ,j)[3])
-
-#Tenemos un total de 814 grupos latinoamericanos para analizar
-#print(len(all_artist_clean))
-
-#Buscamos en genius cuantos de los artistas  existen para pasar al paso p1 el cual permite descargar todas las letras de los artistas
-#Los no existentes se anexan en otra lista
-
-#artist_search_genius = []
-#for i in all_artist_clean:
-#  artist_search_genius.append('https://genius.com/search?q='+i.strip().replace(" ", "+"))
-#  print('https://genius.com/search?q='+i.strip().replace(" ", "+"))
-#
-
