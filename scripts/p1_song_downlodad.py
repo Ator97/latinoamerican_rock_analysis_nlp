@@ -9,6 +9,7 @@ f= open(archivo,"r")
 log_file = archivo + "log"
 log = open(log_file,"a")
 log.write("No se encontro el grupo:")
+
 for i in f:
     #print(i)
     try :
