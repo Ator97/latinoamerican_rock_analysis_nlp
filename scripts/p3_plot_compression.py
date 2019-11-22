@@ -26,3 +26,4 @@ ax = fig.add_subplot(111)
 bp = ax.boxplot(data_to_plot,labels= label)
 # Save the figure
 fig.savefig(master_path+'images/compression_plot.png', bbox_inches='tight')
+
